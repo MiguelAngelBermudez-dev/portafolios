@@ -1,32 +1,175 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 html,
 body {
     width: 100%;
     height: 100%;
-
+    background-color: #050810;
 }
 
 .layout {
+    max-width: 100%;
+    max-height:100%;
+  
     display: grid;
-    grid-template-areas: "header" "main" "footer";
-    grid-template-rows: auto 1fr auto;
+    grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
     gap: 8px;
-    width: 100%;
-    height: 100%;
 }
 
 header {
     grid-area: header;
-    border: solid 3px black;
+    background-color: #10E956;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    
 }
 main {
-    grid-area: main;
-    border: solid 3px black;
+    grid-area:main;
+   margin: 2em 0px 2em 0px;
+    border: solid 3px rgb(255, 255, 255);
 }
 footer {
-    grid-area: footer;
-    border: solid 3px black;
+    grid-area: footer; 
+    background-color: #1F2128;
+   
+}
+#welcome {
+    background-color: #050810;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
+h1 {
+    color: #10E956;
+    text-align: center;
+    font-weight: bold;
+}
+header > section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header > section > div > img {
+    margin: 5%;
+    width: 50%;
+    height: auto;
+}
+.menu {
+    margin: 3em;
+
+}
+.hamburger {
+    cursor: pointer;
+
+}
+
+.hamburger input {
+    display: none;
+}
+
+.hamburger svg {
+
+    width: 5em;
+    /* The size of the SVG defines the overall size */
+    height: 5em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+    fill: none;
+    stroke: #050810;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+    stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+    transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+}
+.page-menu {
+    width: 100%;
+    height: 100%;
+} 
+:root { 
+    --cursor: pointer;
+}
+.GitHub { 
+    cursor: var(--cursor);
+}
+.GitHub:hover { 
+    background-color: #8d99ae4f;
+    
+}
+.linkedin {
+    background-color: #0980BA;
+    cursor: var(--cursor);
+}
+.linkedin:hover { 
+    background-color:  #097fbac1;
+}
+.email {
+    background-color: #EB696A;
+    cursor: var(--cursor);
+}
+.email:hover { 
+    background-color:  #eb6969c8;
+}
+
+svg {
+    margin: 15px;
+}
+.prueba { 
+   columns: 1;
+}
+.proyect {
+    cursor: var(--cursor);
+}
+.img-animation { 
+    display: hidden;
+}
+
+@media(width >= 300px) and (width <= 768px) {
+    #welcome {
+        font-size: 45px;
+    }
+    svg {
+        width: 80px;
+        margin: 5px;
+    }
+header { 
+    height: auto;
+}
+.img-animation { 
+    width: 35px;
+}
 }
