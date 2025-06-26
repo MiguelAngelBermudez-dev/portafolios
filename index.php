@@ -4,15 +4,15 @@
     <section class="page-menu hidden">
 
         <div class="social-media flex flex-col  font-bold text-slate-100 ">
-            <section class="GitHub flex justify-items-center justify-between items-center	">
+            <section class="GitHub flex justify-items-center justify-between items-center	opacity-0 transition-opacity duration-500 ease-in-out">
                 <div>
                     <h2 class="mx-7 md:mx-14 md:text-8xl text-4xl ">GitHub</h2>
                 </div>
-                <div  ><svg width="148" height="119" viewBox="0 0 148 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div><svg width="148" height="119" viewBox="0 0 148 119" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M74 0C33.115 0 0 27.2997 0 61.005C0 87.9997 21.1825 110.8 50.5975 118.883C54.2975 119.417 55.685 117.587 55.685 115.986C55.685 114.537 55.5925 109.733 55.5925 104.624C37 107.445 32.19 100.887 30.71 97.4555C29.8775 95.7016 26.27 90.2874 23.125 88.8385C20.535 87.6947 16.835 84.8732 23.0325 84.7969C28.86 84.7207 33.0225 89.2198 34.41 91.0499C41.07 100.277 51.7075 97.6842 55.9625 96.0828C56.61 92.1175 58.5525 89.4486 60.68 87.9234C44.215 86.3983 27.01 81.1366 27.01 57.8022C27.01 51.1679 29.8775 45.6775 34.595 41.4071C33.855 39.882 31.265 33.629 35.335 25.2408C35.335 25.2408 41.5325 23.6394 55.685 31.4938C61.605 30.1212 67.895 29.4349 74.185 29.4349C80.475 29.4349 86.765 30.1212 92.685 31.4938C106.838 23.5632 113.035 25.2408 113.035 25.2408C117.105 33.629 114.515 39.882 113.775 41.4071C118.493 45.6775 121.36 51.0917 121.36 57.8022C121.36 81.2129 104.062 86.3983 87.5975 87.9234C90.28 89.8298 92.5925 93.4901 92.5925 99.2094C92.5925 107.369 92.5 113.927 92.5 115.986C92.5 117.587 93.8875 119.494 97.5875 118.883C112.28 114.798 125.048 107.015 134.092 96.6321C143.136 86.2487 148 73.7879 148 61.005C148 27.2997 114.885 0 74 0Z" fill="#E8E9E8" fill-opacity="0.62" />
                     </svg></div>
             </section>
-            <section class="linkedin flex justify-items-center justify-between  items-center">
+            <section class="linkedin flex justify-items-center justify-between  items-center opacity-0 transition-opacity duration-500 ease-in-out">
                 <div>
                     <h2 class="mx-7 md:mx-14 md:text-8xl text-4xl ">Linkedin</h2>
                 </div>
@@ -27,7 +27,7 @@
                         </defs>
                     </svg></div>
             </section>
-            <section class="email flex justify-items-center justify-between  items-center">
+            <section class="email flex justify-items-center justify-between  items-center opacity-0 transition-opacity duration-500 ease-in-out ">
                 <div>
                     <h2 class="mx-7 md:mx-14 md:text-8xl text-4xl ">Email</h2>
                 </div>
@@ -35,24 +35,28 @@
                         <path d="M101.656 59.751L139.588 19.7172V99.3277L101.656 59.751ZM52.7765 66.5306L66.0971 80.5769C68.1877 82.7344 70.9135 84.0379 73.8921 84.0379H73.9969H74.0771C77.0619 84.0379 79.7877 82.7269 81.9029 80.5544L81.8844 80.5694L95.205 66.5231L135.697 108.767H12.303L52.7765 66.5306ZM12.2475 10.2257H135.771L76.439 72.8233C75.7748 73.4707 74.9471 73.82 74.0956 73.8122H74.0093H73.9291C73.0747 73.8196 72.2445 73.4676 71.5795 72.8159L71.5856 72.8233L12.2475 10.2257ZM8.41785 19.7097L46.3444 59.7435L8.41785 99.2978V19.7097ZM141.623 1.42336C140.143 0.524395 138.404 0 136.56 0H11.4643C9.67768 0.00859122 7.91632 0.51339 6.31493 1.47579L6.38277 1.43834C4.47019 2.58812 2.85958 4.36323 1.73201 6.56406C0.604437 8.76489 0.00462125 11.3042 0 13.8964L0 105.081C0.00326479 108.771 1.21151 112.309 3.35962 114.919C5.50773 117.528 8.42026 118.996 11.4581 119H136.542C139.58 118.996 142.492 117.528 144.64 114.919C146.788 112.309 147.997 108.771 148 105.081V13.8964C148 8.45024 145.416 3.73069 141.654 1.46081L141.586 1.42336H141.623Z" fill="#E8E9E8" fill-opacity="0.62" />
                     </svg></div>
             </section>
-            <section class="proyect m-5 flex justify-items-center justify-between ">
-                <div >
-                <img class="img-animation hidden md:m-14 m-7"  width="80px" height="auto" src="media/linux.png" alt="logo"> 
+            <section class="proyect m-5 flex justify-items-center justify-between transition-opacity duration-500 ease-in-out opacity-0">
+                <div>
+                    <img class="img-animation hidden md:m-14 m-7" width="80px" height="auto" src="media/linux.png" alt="logo">
                 </div>
-                <div><h2 class=" md:m-14 md:text-8xl m-7 text-4xl">Proyectos</h2></div>
+                <div>
+                    <h2 class=" md:m-14 md:text-8xl m-7 text-4xl">Proyectos</h2>
+                </div>
             </section>
-            <section class="proyect m-5 flex justify-items-center justify-between ">
-                <div >
-                <img class="img-animation hidden md:m-14 m-7" width="80px" height="auto" src="media/linux.png" alt="logo">
+            <section class="proyect m-5 flex justify-items-center justify-between formacion transition-opacity duration-500 ease-in-out opacity-0">
+                <div>
+                    <img class="img-animation hidden md:m-14 m-7" width="80px" height="auto" src="media/linux.png" alt="logo">
                 </div>
-                <div> <h2 class=" md:m-14 md:text-8xl text-4xl m-7 ">Formación</h2></div>
+                <div>
+                    <h2 class=" md:m-14 md:text-8xl text-4xl m-7 ">Formación</h2>
+                </div>
             </section>
         </div>
 
 
     </section>
-    <section id="cuerpo">
-
+    <section id="cuerpo" class="text-white">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde in quam qui magni. Facilis est ea corrupti, sit so<br />luta amet voluptatem aut consectetur cum minus natus distinctio veritatis asperiores obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing <br />elit. Alias iure quidem animi optio iste, repellendus adipisci earum quae libero asperiores maiores fac<br />ilis veniam fugiat, exercitationem, voluptates dolores. Quaerat, maiores pariatur?
     </section>
 </main>
 
