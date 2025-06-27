@@ -39,7 +39,7 @@ header {
 main {
     grid-area:main;
    margin: 2em 0px 2em 0px;
-    border: solid 3px rgb(255, 255, 255);
+    /*border: solid 3px rgb(255, 255, 255);*/
 }
 footer {
     grid-area: footer; 
@@ -165,7 +165,46 @@ svg {
 .img-animation { 
     display: hidden;
 }
-
+.caja{
+    align-items: center;
+    display: flex;
+    font-size: .75rem;
+    padding: .2rem .5rem;
+}
+.caja p{
+    background: rgba(20, 233, 88, .157);
+    border-radius: 12px;
+    color: #14e956;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: .05em;
+    margin: 0;
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+}
+.caja span{
+    display: inline-block;
+    font-size: 1.7rem;
+    animation:  2s ease-in-out 0s infinite normal none running wobble ;
+    animation-direction: alternate;
+}
+@keyframes wobble {
+    0%{
+        transform: translateY(0, 0, 0px);
+    }
+ 25%{
+   transform:translate3d(-13.4421%, 0px, 0px) rotate(-2.73293deg) scale(1.29555);
+  }
+  50%{
+    transform: translate3d(13.4421%, 0px, 0px) rotate(2.73deg) scale(1.35);
+  }
+  75%{
+    transform:translate3d(-13.4421%, 0px, 0px) rotate(-2.73293deg) scale(1.4);
+  }
+  100%{
+    transform: translate3d(13.4421%, 0px, 0px) rotate(2.73deg) scale(1.45);
+  }
+}
 @media(width >= 300px) and (width <= 768px) {
     #welcome {
         font-size: 45px;

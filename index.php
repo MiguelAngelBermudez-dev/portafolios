@@ -56,6 +56,11 @@
 
     </section>
     <section id="cuerpo" class="text-white">
+        <div class="caja ">
+            <p> <span>✌🏻</span>Hola Yo soy Miguel Angel</p>
+        </div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde in quam qui magni. Facilis est ea corrupti, sit so<br />luta amet voluptatem aut consectetur cum minus natus distinctio veritatis asperiores obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing <br />elit. Alias iure quidem animi optio iste, repellendus adipisci earum quae libero asperiores maiores fac<br />ilis veniam fugiat, exercitationem, voluptates dolores. Quaerat, maiores pariatur?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde in quam qui magni. Facilis est ea corrupti, sit so<br />luta amet voluptatem aut consectetur cum minus natus distinctio veritatis asperiores obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing <br />elit. Alias iure quidem animi optio iste, repellendus adipisci earum quae libero asperiores maiores fac<br />ilis veniam fugiat, exercitationem, voluptates dolores. Quaerat, maiores pariatur?
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde in quam qui magni. Facilis est ea corrupti, sit so<br />luta amet voluptatem aut consectetur cum minus natus distinctio veritatis asperiores obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing <br />elit. Alias iure quidem animi optio iste, repellendus adipisci earum quae libero asperiores maiores fac<br />ilis veniam fugiat, exercitationem, voluptates dolores. Quaerat, maiores pariatur?
     </section>
 </main>
