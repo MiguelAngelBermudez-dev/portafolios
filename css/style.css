@@ -23,7 +23,9 @@ body {
     "main" 1fr
     "footer" auto
     / 1fr;
-    gap: 8px;
+    
+    
+
 }
 
 header {
@@ -35,11 +37,12 @@ header {
     right: 0;
     height: 5em;
     
+    
 }
 main {
     grid-area:main;
-   margin: 2em 0px 2em 0px;
-   
+   /*margin: 2em 0px 2em 0px;*/
+
 }
 footer {
     grid-area: footer; 
@@ -54,6 +57,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 75px;
+    
 }
 h1 {
     color: #10E956;
@@ -166,7 +170,9 @@ svg {
     display: hidden;
 }
 .home-intro{
-  
+    background: url("../media/abstract-futuristic-modificada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     font-size: .75rem;
     padding: .2rem .5rem;
 }
@@ -176,9 +182,10 @@ svg {
 .caja {
     background: rgba(20, 233, 88, .157);
     border-radius: 12px;  
-    margin: 0;
+ 
     padding: .5rem .3rem;
-  max-width: 20rem;
+  max-width: 15rem;
+  margin: 2em 0px 2em 0px;
 }
 .presentacion{
     text-transform: capitalize;
@@ -194,11 +201,12 @@ svg {
     animation:  2s ease-in-out 0s infinite normal none running wobble ;
     animation-direction: alternate;
 }
+
 #cuerpo strong{
     color: #14e956;
 }
- h1 {
-
+.img{
+    margin: 2em 0px 2em 0px;
 }
 @keyframes wobble {
     0%{

@@ -62,7 +62,7 @@
                 <div class="caja flex justify-start items-center">
                     <p class="presentacion text-xs leading-none">
                         <span class="inline-block text-[10px] mr-1 align-middle">✌🏻</span>
-                        Hola a todos! Yo soy Miguel
+                        Holaaa! soy Miguel
                     </p>
                 </div>
                 <div class="titulo flex justify-start items-center">
@@ -740,7 +740,7 @@
                 </svg></div>
         </section>
 
-
+        dddddddddddddddddd
     </section>
 </main>
 
