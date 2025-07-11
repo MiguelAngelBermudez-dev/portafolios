@@ -23,9 +23,7 @@ body {
     "main" 1fr
     "footer" auto
     / 1fr;
-    
-    
-
+    gap: 8px;
 }
 
 header {
@@ -36,8 +34,6 @@ header {
     left: 0;
     right: 0;
     height: 5em;
-    
-    
 }
 main {
     grid-area:main;
@@ -175,6 +171,7 @@ svg {
     background-size: 100% 100%;
     font-size: .75rem;
     padding: .2rem .5rem;
+    
 }
 .caja h2{
     width: 900px;
@@ -182,10 +179,10 @@ svg {
 .caja {
     background: rgba(20, 233, 88, .157);
     border-radius: 12px;  
- 
+    margin: 2em 2em 2em 2em;
     padding: .5rem .3rem;
   max-width: 15rem;
-  margin: 2em 0px 2em 0px;
+
 }
 .presentacion{
     text-transform: capitalize;
@@ -207,7 +204,26 @@ svg {
 }
 .img{
     margin: 2em 0px 2em 0px;
+    
 }
+.titulo{
+    margin: 2em 2em 2em 2em;
+}
+.titulo-secundario{
+    margin: 2em 2em 2em 2em;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    opacity: 0.8;
+    text-transform: lowercase;
+   
+
+}
+.img svg{
+    margin:0px;
+    max-width: 34rem;
+    max-height: auto;
+}
+
 @keyframes wobble {
     0%{
         transform: translateY(0, 0, 0px) scale(0);
@@ -233,9 +249,12 @@ svg {
         width: 80px;
         margin: 5px;
     }
+ 
     .img svg{
         width: auto;
-        margin: auto;
+        height: auto;
+      
+      
     }
 header { 
     height: auto;
@@ -243,4 +262,31 @@ header {
 .img-animation { 
     width: 35px;
 }
+
+  .home-intro{
+    display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 1rem;
+  background-image: url("../media/abstract-futuristic-modificada-ancho.png");
+  }
+  .cajon-home{
+    display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 1rem;
+  }
+  .caja{
+    padding: .6rem .6rem;
+  }
+ .titulo{
+    text-align: center;
+    font-size: 18px;
+ } 
+
+.titulo-secundario p{
+    text-align: center;
+    
+}
+
 }

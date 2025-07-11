@@ -26,7 +26,7 @@
 
 <section id="welcome">
   <div class="mx-auto">
-    <h1><span class="auto-type"></span></h1>
+    <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold"><span class="auto-type"></span></h1>
   </div>
 </section>
 <section class="layout">
